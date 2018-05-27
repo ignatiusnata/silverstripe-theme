@@ -1,0 +1,31 @@
+---
+Name: mytheme
+---
+SilverStripe\View\SSViewer:
+  themes:
+    - '$public'
+    - 'simple'
+    - '$default'
+
+SilverStripe\i18n\i18n:
+  default_locale: 'en_US'
+
+SilverStripe\HomePage:
+  allowed_children:
+    - SilverStripe\Slider
+
+SilverStripe\AboutMe:
+  allowed_children:
+    - none
+
+SilverStripe\Contact:
+  allowed_children:
+    - none
+
+SilverStripe\PortfolioList:
+  allowed_children:
+    - SilverStripe\PortfolioDetail
+
+SilverStripe\ThankYou:
+  allowed_children:
+    - none
